@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #2c1e4a;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Generator Section */
+.generator {
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.generator h1 {
+    color: #2c1e4a;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #2c1e4a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #462d6a;
+}
+.mini-gallery {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mini-gallery h2 {
+    color: #2c1e4a;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for proper alignment */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between images */
+}
+
+/* Set fixed size and add hover effect */
+.gallery-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ensures image fits properly */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.gallery-item img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* Style the header container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and navigation */
+    padding: 10px 20px;
+    background-color: #2c1e4a; /* Adjust to match your theme */
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust logo size */
+.logo img {
+    height: 30px; /* Make the logo smaller */
+    width: auto;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Logo text styling */
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+nav {
+    margin-left: 100px; /* Push navigation to the right */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+.settings-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 15px; /* Space between settings and logo */
+}
+
+/* Settings icon styling */
+.settings-btn img {
+    height: 30px; /* Adjust size as needed */
+    width: auto;
+    filter: invert(1); /* Makes icon white if it's dark */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for settings button */
+.settings-btn:hover img {
+    transform: rotate(90deg);
+}
+ 
+
+
